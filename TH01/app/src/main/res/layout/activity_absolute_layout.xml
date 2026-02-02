@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Username label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:textColor="#AAAAAA"
+        android:layout_x="40dp"
+        android:layout_y="120dp"/>
+
+    <!-- Username input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="110dp"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopStart="6dp"
+        app:boxCornerRadiusTopEnd="6dp"
+        app:boxCornerRadiusBottomStart="6dp"
+        app:boxCornerRadiusBottomEnd="6dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" "/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textColor="#AAAAAA"
+        android:layout_x="40dp"
+        android:layout_y="180dp"/>
+
+    <!-- Password input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="170dp"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopStart="6dp"
+        app:boxCornerRadiusTopEnd="6dp"
+        app:boxCornerRadiusBottomStart="6dp"
+        app:boxCornerRadiusBottomEnd="6dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint=" "/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</AbsoluteLayout>
