@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MENU"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <CheckBox
+            android:id="@+id/cbCoffee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee (20 000)"/>
+
+        <CheckBox
+            android:id="@+id/cbIceCream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kem tươi (10 000)"/>
+
+        <CheckBox
+            android:id="@+id/cbSnack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bim bim (5 000)"/>
+
+        <CheckBox
+            android:id="@+id/cbYogurt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sữa chua (6 000)"/>
+
+        <CheckBox
+            android:id="@+id/cbPurpleYogurt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sữa chua nếp cẩm (12 000)"/>
+
+        <Button
+            android:id="@+id/btnOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đặt hàng"
+            android:layout_marginTop="24dp"/>
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tổng tiền: 0 đ"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>
